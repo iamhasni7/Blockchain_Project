@@ -18,8 +18,7 @@ const currentBlockData = [
         receiver: "klkyukjhfdkhfdskfdshudfsk"
     }
 ]
-const nonce = 5485616;
 
-var hash = bitcoin.hashBlock(previousBlockHash, currentBlockData, nonce);
+var hash = bitcoin.proofOfWork(previousBlockHash, currentBlockData);
 
 console.log(hash);
