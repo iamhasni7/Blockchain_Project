@@ -4,6 +4,7 @@ const Blockchain = require('./blockchain');
 const bitcoin = new Blockchain();
 const bodyParser = require("body-parser");
 const {v4: uuid} = require("uuid");
+const port = process.argv[2];
 
 const nodeAddress = uuid().split("-").join("");
 
@@ -51,4 +52,4 @@ app.post("/wallet", function (req, res) {
     res.json({note: `This transaction will be added in block ${blockIndex}`});
 })
 
-app.listen(3000);
+app.listen(port);

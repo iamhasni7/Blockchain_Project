@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --watch dev -e js dev/api.js"
+    "node_01": "nodemon --watch dev -e js dev/api.js 3001",
+    "node_02": "nodemon --watch dev -e js dev/api.js 3001",
+    "node_03": "nodemon --watch dev -e js dev/api.js 3001",
+    "node_04": "nodemon --watch dev -e js dev/api.js 3001",
+    "node_05": "nodemon --watch dev -e js dev/api.js 3001"
   },
   "author": "",
   "license": "ISC",
