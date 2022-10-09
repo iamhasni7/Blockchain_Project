@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "node_01": "nodemon --watch dev -e js dev/api.js 3001",
-    "node_02": "nodemon --watch dev -e js dev/api.js 3001",
-    "node_03": "nodemon --watch dev -e js dev/api.js 3001",
-    "node_04": "nodemon --watch dev -e js dev/api.js 3001",
-    "node_05": "nodemon --watch dev -e js dev/api.js 3001"
+    "node_01": "nodemon --watch dev -e js dev/api.js 3001 http://localhost:3001",
+    "node_02": "nodemon --watch dev -e js dev/api.js 3002 http://localhost:3002",
+    "node_03": "nodemon --watch dev -e js dev/api.js 3003 http://localhost:3003",
+    "node_04": "nodemon --watch dev -e js dev/api.js 3004 http://localhost:3004",
+    "node_05": "nodemon --watch dev -e js dev/api.js 3005 http://localhost:3005"
   },
   "author": "",
   "license": "ISC",
